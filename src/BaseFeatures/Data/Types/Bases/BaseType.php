@@ -104,7 +104,7 @@ abstract class BaseType
     /**
      * @return string
      */
-    public function getFilterView()
+    public function getFilterView() : string
     {
         return $this->filterView;
     }
